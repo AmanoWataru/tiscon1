@@ -60,7 +60,7 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <label for="password_old">Old password</label>
+                                    <label for="password_old">古いパスワード</label>
                                     <input type="password" class="form-control" id="password_old">
                                 </div>
                             </div>
@@ -68,13 +68,13 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <label for="password_1">New password</label>
+                                    <label for="password_1">新しいパスワード</label>
                                     <input type="password" class="form-control" id="password_1">
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <label for="password_2">Retype new password</label>
+                                    <label for="password_2">新しいパスワード（確認用）</label>
                                     <input type="password" class="form-control" id="password_2">
                                 </div>
                             </div>
@@ -82,7 +82,7 @@
                         <!-- /.row -->
 
                         <div class="col-sm-12 text-center">
-                            <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> Save new password</button>
+                            <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i>新しいパスワードの保存</button>
                         </div>
                     </form>
 
@@ -93,13 +93,13 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <label for="firstname">Firstname</label>
+                                    <label for="firstname">名前</label>
                                     <input type="text" class="form-control" id="firstname">
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <label for="lastname">Lastname</label>
+                                    <label for="lastname">苗字</label>
                                     <input type="text" class="form-control" id="lastname">
                                 </div>
                             </div>
@@ -109,7 +109,7 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <label for="company">Company</label>
+                                    <label for="company">会社</label>
                                     <input type="text" class="form-control" id="company">
                                 </div>
                             </div>

@@ -67,12 +67,12 @@
                         </ul>
                     </li>
                     <#else>
-                    <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
+                    <li><a href="#" data-toggle="modal" data-target="#login-modal">ログイン</a>
                     </li>
                     </#if>
-                    <li><a href="/register">Register</a>
+                    <li><a href="/register">登録</a>
                     </li>
-                    <li><a href="http://www.tis.co.jp/recruit/index.html">Contact</a>
+                    <li><a href="http://www.tis.co.jp/recruit/index.html">問い合わせ</a>
                     </li>
                 </ul>
             </div>
@@ -134,7 +134,7 @@
                         <i class="fa fa-search"></i>
                     </button>
                     <a class="btn btn-default navbar-toggle" href="/basket">
-                        <i class="fa fa-shopping-cart"></i>  <span class="hidden-xs">3 items in cart</span>
+                        <i class="fa fa-shopping-cart"></i>  <span class="hidden-xs">カゴの中　3 コ</span>
                     </a>
                 </div>
             </div>
@@ -196,7 +196,7 @@
             <div class="navbar-buttons">
 
                 <div class="navbar-collapse collapse right" id="basket-overview">
-                    <a href="basket.html" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">3 items in cart</span></a>
+                    <a href="basket.html" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">カゴの中 3コ</span></a>
                 </div>
                 <!--/.nav-collapse -->
 
@@ -257,9 +257,9 @@
                         <h4>User section</h4>
 
                         <ul>
-                            <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
+                            <li><a href="#" data-toggle="modal" data-target="#login-modal">ログイン</a>
                             </li>
-                            <li><a href="/register">Regiter</a>
+                            <li><a href="/register">登録</a>
                             </li>
                         </ul>
 
@@ -298,15 +298,11 @@
                         <h4>Where to find us</h4>
 
                         <p><strong>TIS Inc.</strong>
-                            <br>Sumitomo Fudosan Shinjuku Grand Tower,
-                            <br>17-1,Nishishinjuku 8-chome,
-                            <br>Shinjuku-ku,Tokyo,
                             <br>160-0023
-                            <br>
-                            <strong>Japan</strong>
+                            <br>東京都新宿区西新宿8丁目17番1号
                         </p>
 
-                        <a href="http://www.tis.co.jp/recruit/index.html">Go to contact page</a>
+                        <a href="http://www.tis.co.jp/recruit/index.html">ホームページ</a>
 
                         <hr class="hidden-md hidden-lg">
 
@@ -349,7 +345,7 @@
         <div id="copyright">
             <div class="container">
                 <div class="col-md-6">
-                    <p class="pull-left">© 2016 TIS Inc.</p>
+                    <p class="pull-left"> TIS </p>
 
                 </div>
                 <div class="col-md-6">
