@@ -1,6 +1,7 @@
 package tiscon1.form;
 
 import lombok.Data;
+import org.hibernate.validator.constraints.Email;
 import tiscon1.model.Prefecture;
 
 import javax.validation.constraints.NotNull;
@@ -18,6 +19,7 @@ public class AccountForm implements Serializable {
 
 
     @NotNull
+    @Email
     private String email;
 
     @Size(min = 6)

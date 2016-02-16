@@ -9,7 +9,7 @@
 
                 <div class="col-md-12">
                     <ul class="breadcrumb">
-                        <li><a href="/">Home</a></li>
+                        <li><a href="/">ホーム</a></li>
                         <#if genreName?has_content>
                             <li><a href="/category?genreId=${genreId}&subgenreId=">${genreName} </a></li>
                         </#if>
@@ -29,7 +29,7 @@
                     <div class="panel panel-default sidebar-menu">
 
                         <div class="panel-heading">
-                            <h3 class="panel-title">Ranking</h3>
+                            <h3 class="panel-title">ランキング</h3>
                         </div>
 
                         <div class="panel-body">
@@ -39,7 +39,7 @@
                                 <#else>
                                     <li>
                                 </#if>
-                                        <a href="/category?genreId=33&subgenreId=">MOVIE </a>
+                                        <a href="/category?genreId=33&subgenreId=">映画 </a>
                                         <ul>
                                             <#list movieGenres as movie>
                                                 <li><a href="/category?genreId=33&subgenreId=${movie.id}">${movie.name?html}</a></li>
@@ -51,7 +51,7 @@
                                 <#else>
                                     <li>
                                 </#if>
-                                        <a href="/category?genreId=34&subgenreId=">MUSIC </a>
+                                        <a href="/category?genreId=34&subgenreId=">音楽 </a>
                                         <ul>
                                             <#list musicGenres as music>
                                                 <li><a href="/category?genreId=34&subgenreId=${music.id}">${music.name?html}</a></li>
@@ -64,7 +64,7 @@
                     <!-- *** 検索機能用エリア
                     <div class="panel panel-default sidebar-menu">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Search</h3>
+                            <h3 class="panel-title">検索</h3>
                         </div>
                     </div>
                     *** -->
@@ -83,13 +83,13 @@
                         <div class="col-sm-6">
                             <div class="box">
                                 <h1 class="text-center">${item.title?html}</h1>
-                                <p class="goToDescription"><a href="#details" class="scroll-to">Scroll to product details, material & care and sizing</a>
+                                <p class="goToDescription"><a href="#details" class="scroll-to">詳細を表示</a>
                                 </p>
                                 <p class="price">￥${item.price}</p>
 
                                 <p class="text-center buttons">
-                                    <a href="basket" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                    <a href="basket" class="btn btn-default"><i class="fa fa-heart"></i> Add to wishlist</a>
+                                    <a href="basket" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>カートに追加</a>
+                                    <a href="basket" class="btn btn-default"><i class="fa fa-heart"></i>欲しい物リストに追加</a>
                                 </p>
                             </div>
                         </div>
@@ -101,23 +101,23 @@
                         <p>
                             <#if genreId == "33">
                                 <#if item.summary?has_content>
-                                    <h4>Summary</h4>
+                                    <h4>まとめ</h4>
                                     <p>${item.summary?html}</p>
                                 </#if>
                             <#elseif genreId == "34">
                                 <#if item.artist?has_content>
-                                    <h4>Artist</h4>
+                                    <h4>アーティスト</h4>
                                     <p>${item.artist?html}</p>
                                 </#if>
                                 <#if item.album?has_content>
-                                    <h4>Album</h4>
+                                    <h4>アルバム</h4>
                                     <p>${item.album?html}</p>
                                 </#if>
                             </#if>
 
                             <hr>
                             <div class="social">
-                                <h4>Show it to your friends</h4>
+                                <h4>友達におすすめする</h4>
                                 <p>
                                     <a href="http://www.facebook.com/dialog/feed?app_id=419866574778905&picture=${item.image}&name=My favorite ${genreName}! - ${item.title}&display=page" class="external facebook" data-animate-hover="pulse"><i class="fa fa-facebook"></i></a>
                                     <a href="http://twitter.com/share?text=My favorite ${genreName}! - ${item.title}" class="external twitter" data-animate-hover="pulse"><i class="fa fa-twitter"></i></a>

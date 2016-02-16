@@ -48,7 +48,7 @@
     <div id="top">
         <div class="container">
             <div class="col-md-6 offer" data-animate="fadeInDown">
-                <a href="#" class="btn btn-success btn-sm" data-animate-hover="shake">Offer of the day</a>  <a href="#">Get flat 35% off on orders over $50!</a>
+                <a href="#" class="btn btn-success btn-sm" data-animate-hover="shake">今日のイベント</a>  <a href="#">5000円以上お買い上げいただいた方には35％off!!</a>
             </div>
             <div class="col-md-6" data-animate="fadeInDown">
                 <ul class="menu">
@@ -59,7 +59,7 @@
                                 <div class="yamm-content">
                                     <div class="row">
                                             <div class="col-sm-3">
-                                                <a href="/logout" class="layout-menu-font">Logout</a>
+                                                <a href="/logout" class="layout-menu-font">ログアウト</a>
                                             </div>
                                     </div>
                                 </div>
@@ -83,26 +83,26 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title" id="Login">Customer login</h4>
+                        <h4 class="modal-title" id="Login">ログイン画面</h4>
                     </div>
                     <div class="modal-body">
                         <form action="/login" method="post">
                             <div class="form-group">
-                                <input type="text" name="account" class="form-control" id="account-modal" placeholder="account">
+                                <input type="text" name="account" class="form-control" id="account-modal" placeholder="アカウント名">
                             </div>
                             <div class="form-group">
-                                <input type="password" name="password" class="form-control" id="password-modal" placeholder="password">
+                                <input type="password" name="password" class="form-control" id="password-modal" placeholder="パスワード">
                             </div>
 
                             <p class="text-center">
-                                <button class="btn btn-primary"><i class="fa fa-sign-in"></i> Log in</button>
+                                <button class="btn btn-primary"><i class="fa fa-sign-in"></i>ログイン</button>
                             </p>
 
 
                         </form>
 
-                        <p class="text-center text-muted">Not registered yet?</p>
-                        <p class="text-center text-muted"><a href="/register"><strong>Register now</strong></a>! It is easy and done in 1&nbsp;minute and gives you access to special discounts and much more!</p>
+                        <p class="text-center text-muted">アカウント登録はお済ですか？</p>
+                        <p class="text-center text-muted"><a href="/register"><strong>今すぐ登録</strong></a>! １分以内に簡単にできます！！    </p>
 
                     </div>
                 </div>
@@ -134,7 +134,7 @@
                         <i class="fa fa-search"></i>
                     </button>
                     <a class="btn btn-default navbar-toggle" href="/basket">
-                        <i class="fa fa-shopping-cart"></i>  <span class="hidden-xs">カゴの中　3 コ</span>
+                        <i class="fa fa-shopping-cart"></i>  <span class="hidden-xs">カゴ　3 コ</span>
                     </a>
                 </div>
             </div>
@@ -144,10 +144,10 @@
 
                 <ul class="nav navbar-nav navbar-left">
                     <li>
-                        <a href="/">Home</a>
+                        <a href="/">ホーム</a>
                     </li>
                     <li class="dropdown yamm-fw">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Movie <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">映画 <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <div class="yamm-content">
@@ -169,7 +169,7 @@
                     </li>
 
                     <li class="dropdown yamm-fw">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Music <b class="caret"></b></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">音楽 <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <div class="yamm-content">
@@ -243,18 +243,18 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 col-sm-6">
-                        <h4>Pages</h4>
+                        <h4>会社概要</h4>
 
                         <ul>
-                            <li><a href="http://www.tis.co.jp/recruit/index.html">About us</a>
+                            <li><a href="http://www.tis.co.jp/recruit/index.html">会社情報</a>
                             </li>
-                            <li><a href="http://www.tis.co.jp/recruit/index.html">Contact us</a>
+                            <li><a href="http://www.tis.co.jp/recruit/index.html">問い合わせ </a>
                             </li>
                         </ul>
 
                         <hr>
 
-                        <h4>User section</h4>
+                        <h4>アカウント</h4>
 
                         <ul>
                             <li><a href="#" data-toggle="modal" data-target="#login-modal">ログイン</a>
@@ -270,9 +270,9 @@
 
                     <div class="col-md-3 col-sm-6">
 
-                        <h4>Ranking</h4>
+                        <h4>ランキング</h4>
 
-                        <h5>Movie</h5>
+                        <h5>映画</h5>
                         <ul>
                             <#list movieGenres as movie>
                                 <li><a href="/category?genreId=33&subgenreId=${movie.id}">${movie.name}</a></li>
@@ -281,7 +281,7 @@
                     </div>
                     <!-- /.col-md-3 -->
                     <div class="col-md-3 col-sm-6">
-                        <h5>Music</h5>
+                        <h5>音楽</h5>
                         <ul>
                             <#list musicGenres as music>
                                 <li><a href="/category?genreId=34&subgenreId=${music.id}">${music.name}</a></li>
@@ -295,9 +295,9 @@
 
                     <div class="col-md-3 col-sm-6">
 
-                        <h4>Where to find us</h4>
+                        <h4>TISについて</h4>
 
-                        <p><strong>TIS Inc.</strong>
+                        <p><strong>TIS株式会社</strong>
                             <br>160-0023
                             <br>東京都新宿区西新宿8丁目17番1号
                         </p>
@@ -315,7 +315,7 @@
 
                         <hr>
 
-                        <h4>Stay in touch</h4>
+                        <h4>共有</h4>
 
                         <p class="social">
                             <a href="http://www.facebook.com/tis.recruit" class="facebook external" data-animate-hover="shake"><i class="fa fa-facebook"></i></a>

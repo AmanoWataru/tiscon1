@@ -47,7 +47,7 @@
     <div id="top">
         <div class="container">
             <div class="col-md-6 offer" data-animate="fadeInDown">
-                <a href="#" class="btn btn-success btn-sm" data-animate-hover="shake">Offer of the day</a>  <a href="#">Get flat 35% off on orders over $50!</a>
+                <a href="#" class="btn btn-success btn-sm" data-animate-hover="shake">今日のイベント</a>  <a href="#">5000円以上お買い上げいただいた方には35％off!!</a>
             </div>
             <div class="col-md-6" data-animate="fadeInDown">
                 <ul class="menu">
@@ -58,7 +58,7 @@
                                 <div class="yamm-content">
                                     <div class="row">
                                             <div class="col-sm-3">
-                                                <a href="/logout" class="layout-menu-font">Logout</a>
+                                                <a href="/logout" class="layout-menu-font">ログアウト</a>
                                             </div>
                                     </div>
                                 </div>
@@ -66,14 +66,14 @@
                         </ul>
                     </li>
                     <#else>
-                    <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
+                    <li><a href="#" data-toggle="modal" data-target="#login-modal">ログイン</a>
                     </li>
                     </#if>
 
-                    <li><a href="/register">Register</a>
+                    <li><a href="/register">登録</a>
                     </li>
 
-                    <li><a href="http://www.tis.co.jp/recruit/index.html">Contact</a>
+                    <li><a href="http://www.tis.co.jp/recruit/index.html">問い合わせ</a>
                     </li>
                 </ul>
             </div>
@@ -84,7 +84,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title" id="Login">Customer login</h4>
+                        <h4 class="modal-title" id="Login">ログイン</h4>
                     </div>
                     <div class="modal-body">
                         <form action="/login" method="post">
@@ -96,7 +96,7 @@
                             </div>
 
                             <p class="text-center">
-                                <button class="btn btn-primary"><i class="fa fa-sign-in"></i> Log in</button>
+                                <button class="btn btn-primary"><i class="fa fa-sign-in"></i>ログイン</button>
                             </p>
 
                         </form>
@@ -120,9 +120,9 @@
                 <div class="col-md-12 layout-menu-index">
 
                     <ul class="breadcrumb">
-                        <li><a href="/">Home</a>
+                        <li><a href="/">ホーム</a>
                         </li>
-                        <li>Internal Server Error</li>
+                        <li>エラー</li>
                     </ul>
 
 
@@ -134,10 +134,10 @@
                                     <img src="/img/TISCON_LOGO.png" alt="TISCON logo">
                                 </p>
 
-                                <h3>We are sorry - something went wrong</h3>
-                                <h4 class="text-muted">Error 500 - Internal Server Error</h4>
+                                <h3>申し訳ございません。エラーです。</h3>
+                                <h4 class="text-muted">Error 500 - エラー</h4>
 
-                                <p class="buttons"><a href="/" class="btn btn-primary"><i class="fa fa-home"></i> Go to Homepage</a></p>
+                                <p class="buttons"><a href="/" class="btn btn-primary"><i class="fa fa-home"></i>ホームページに戻る</a></p>
                             </div>
                         </div>
                     </div>
@@ -152,7 +152,7 @@
         <div id="copyright">
             <div class="container">
                 <div class="col-md-6">
-                    <p class="pull-left">© 2016 TIS Inc.</p>
+                    <p class="pull-left">TIS株式会社</p>
 
                 </div>
                 <div class="col-md-6">

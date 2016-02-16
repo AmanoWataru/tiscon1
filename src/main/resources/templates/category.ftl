@@ -7,7 +7,7 @@
             <div class="container">
                 <div class="col-md-12">
                     <ul class="breadcrumb">
-                        <li><a href="/">Home</a></li>
+                        <li><a href="/">ホーム</a></li>
                         <#if genreName?has_content>
                             <li><a href="/category?genreId=${genreId}&subgenreId=">${genreName} </a></li>
                         </#if>
@@ -37,7 +37,7 @@
                                 <#else>
                                     <li>
                                 </#if>
-                                        <a href="/category?genreId=33&subgenreId=">MOVIE </a>
+                                        <a href="/category?genreId=33&subgenreId=">映画 </a>
                                         <ul>
                                             <#list movieGenres as movie>
                                                 <li>
@@ -59,7 +59,7 @@
                                 <#else>
                                     <li>
                                 </#if>
-                                        <a href="/category?genreId=34&subgenreId=">MUSIC </a>
+                                        <a href="/category?genreId=34&subgenreId=">音楽 </a>
                                         <ul>
                                             <#list musicGenres as music>
                                                 <li>
@@ -78,7 +78,7 @@
                     <!-- *** 検索機能用エリア
                     <div class="panel panel-default sidebar-menu">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Search</h3>
+                            <h3 class="panel-title">検索</h3>
                         </div>
                     </div>
                     *** -->
@@ -123,8 +123,8 @@
                                     <h3 class="text-category-list-title"><a href="/detail?genreId=${genreId}&subgenreId=${subgenreId}&itemId=${item.id}">${item.title}</a></h3>
                                     <p class="price">￥${item.price}</p>
                                     <p class="buttons">
-                                        <a href="/detail?genreId=${genreId}&subgenreId=${subgenreId}&itemId=${item.id}" class="btn btn-default">View detail</a>
-                                        <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                        <a href="/detail?genreId=${genreId}&subgenreId=${subgenreId}&itemId=${item.id}" class="btn btn-default">詳細</a>
+                                        <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>カートに追加</a>
                                     </p>
                                 </div>
                                 <!-- /.text -->

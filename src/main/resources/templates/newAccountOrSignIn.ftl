@@ -7,9 +7,9 @@
                 <div class="col-md-12">
 
                     <ul class="breadcrumb">
-                        <li><a href="/">Home</a>
+                        <li><a href="/">ホーム</a>
                         </li>
-                        <li>New account / Sign in</li>
+                        <li>サインイン・アカウントの新規作成</li>
                     </ul>
 
                 </div>
@@ -53,7 +53,7 @@
                                 <@spring.showErrors "<br/>", "help-block"/>
                             </div>
                             <div class="text-center">
-                                <button type="submit" class="btn btn-primary"><i class="fa fa-user-md"></i> Register</button>
+                                <button type="submit" class="btn btn-primary"><i class="fa fa-user-md"></i> 登録</button>
                             </div>
                         </form>
                     </div>
@@ -78,7 +78,7 @@
                                 <input type="password" name="password" class="form-control" id="password">
                             </div>
                             <div class="text-center">
-                                <button type="submit" class="btn btn-primary"><i class="fa fa-sign-in"></i> Log in</button>
+                                <button type="submit" class="btn btn-primary"><i class="fa fa-sign-in"></i>ログイン</button>
                             </div>
                         </form>
                     </div>
