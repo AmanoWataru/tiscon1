@@ -213,7 +213,7 @@
 
                 <form class="navbar-form" role="search">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search">
+                        <input type="text" class="form-control" placeholder="検索">
                         <span class="input-group-btn">
 
 			<button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
